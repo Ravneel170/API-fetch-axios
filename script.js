@@ -35,12 +35,18 @@ ul.innerText = ''
 
 button.addEventListener('click', async ()=> {
 
+try {
     let country = input.value;
 
     let colleges = await getColleges(country);
 
     show (colleges);
-})
+
+} catch (err) {
+
+      console.log('Error in fetching data');
+}
+});
 
 
 
