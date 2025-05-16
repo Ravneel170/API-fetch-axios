@@ -1,3 +1,4 @@
+
 let button = document.querySelector('button');
 
 let input = document.querySelector('input');
@@ -47,7 +48,3 @@ try {
       console.log('Error in fetching data');
 }
 });
-
-
-
-
