@@ -5,7 +5,7 @@ let input = document.querySelector('input');
 
 let ul = document.querySelector('ul');
 
-let url = 'http://universities.hipolabs.com/search?name=';
+let url = 'https://universities.hipolabs.com/search?name=';
 
 
 async function getColleges(country) {
